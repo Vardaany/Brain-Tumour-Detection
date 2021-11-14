@@ -139,3 +139,5 @@ classification = np.where(res == np.amax(res))[1][0]
 imshow(img)
 print(str(res[0][classification]*100) + '% Confidence This Is A ' + names(classification))
 
+#That's it Thank You
+
